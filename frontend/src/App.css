@@ -1,0 +1,51 @@
+/* src/App.css */
+
+/* Cấu trúc tổng thể */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;  /* Màu nền sáng */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Định dạng form */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Thêm không gian giữa các phần tử */
+div {
+  margin-bottom: 10px;
+}
